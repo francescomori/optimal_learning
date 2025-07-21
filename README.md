@@ -12,13 +12,13 @@ We provide code and simulations for analyzing optimal learning protocols using a
 
 ## Overview
 
-Learning dynamics are described via a closed set of ODEs for order parameters in high-dimensional neural networks trained with online stochastic gradient descent (SGD). Training protocols are optimized using control-theoretic tools to minimize generalization error.
+Learning dynamics are described via a closed set of ODEs for order parameters in two-layer neural networks trained with online stochastic gradient descent (SGD). Training protocols are optimized using control-theoretic tools to minimize generalization error.
 
 The repository includes simulations for three representative scenarios:
 
 - **Curriculum learning**: optimal task ordering in student–teacher perceptrons.
 - **Dropout regularization**: optimal schedules for node activation in two-layer soft-committee machines.
-- **Denoising autoencoders (DAEs)**: optimal noise and data augmentation schedules, including applications to MNIST.
+- **Denoising autoencoders (DAEs)**: optimal noise and data augmentation schedules in shallow DAEs, including applications to MNIST.
 
 ---
 
