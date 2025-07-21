@@ -10,7 +10,7 @@ We provide code and simulations for analyzing optimal learning protocols using a
 
 ---
 
-## 🧠 Overview
+## Overview
 
 Learning dynamics are described via a closed set of ODEs for order parameters in high-dimensional neural networks trained with online stochastic gradient descent (SGD). Training protocols are optimized using control-theoretic tools to minimize generalization error.
 
@@ -22,7 +22,7 @@ The repository includes simulations for three representative scenarios:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── curriculum/
@@ -56,7 +56,7 @@ Each notebook is self-contained and can be executed top to bottom.
 
 ---
 
-## 🧪 Notebook Roles
+## Notebooks Description
 
 - `simulations_*.ipynb`: used to **validate the theoretical ODEs** by comparing them to direct numerical experiments.
 - `curriculum.ipynb`: derives optimal training schedules using **indirect optimal control** (Pontryagin's Maximum Principle).
