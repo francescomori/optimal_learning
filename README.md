@@ -18,7 +18,7 @@ The repository includes simulations for three representative scenarios:
 
 - **Curriculum learning**: optimal task ordering in student–teacher perceptrons.
 - **Dropout regularization**: optimal schedules for node activation in two-layer soft-committee machines.
-- **Denoising autoencoders (DAEs)**: optimal noise and data augmentation schedules in shallow DAEs, including applications to MNIST.
+- **Denoising autoencoders (DAEs)**: optimal noise schedules in shallow DAEs, including applications to MNIST.
 
 ---
 
